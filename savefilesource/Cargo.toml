@@ -1,0 +1,9 @@
+[package]
+authors = ["daniel <doperez1997@gmail.com>"]
+description = "dolphinsavesync crate to interact with the file system"
+edition = "2021"
+license = "MIT"
+name = "dolphinsavesync-fs"
+version = "0.0.1"
+
+[dependencies]

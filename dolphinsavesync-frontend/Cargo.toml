@@ -1,0 +1,11 @@
+[package]
+authors = ["daniel <doperez1997@gmail.com>"]
+description = "Small dolphin save syncing use-case crate to interact with the dropbox API"
+edition = "2021"
+license = "MIT"
+name = "dropboxsavesync-frontend"
+version = "0.0.1"
+
+[dependencies]
+dioxus = "0.3.2"
+dioxus-desktop = "0.3.0"
