@@ -1,18 +1,7 @@
-use dioxus::prelude::*;
+mod app;
+
+use app::App;
 
 fn main() {
-    dioxus_desktop::launch(App);
-}
-
-#[derive(PartialEq, Props)]
-struct AppProps {
-    found_config: bool,
-}
-
-fn App(cx: Scope) -> Element {
-    cx.render(rsx! {
-        p {
-            "Hello World"
-        }
-    })
+    yew::Renderer::<App>::new().render();
 }
