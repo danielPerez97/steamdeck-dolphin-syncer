@@ -1,2 +1,7 @@
 [workspace]
-members = ["dolphinsavesync-frontend", "savefilesource", "savefilesource-dropbox"]
+members = [
+  "dolphinsavesync-frontend",
+  "dolphinsavesync-frontend/src-tauri",
+  "savefilesource",
+  "savefilesource-dropbox"
+]
